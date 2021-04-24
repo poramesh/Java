@@ -48,30 +48,7 @@ public class StringMethods {
 	    System.out.println(strim);//  Sachin    
 	    System.out.println(strim.trim());//Sachin  
 	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-	    
-
-		
-
-		
-		
-		
+	    //
 		
 	}
 }
