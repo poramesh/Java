@@ -1,6 +1,7 @@
 package Collection;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Hash_map {
 	
@@ -41,7 +42,20 @@ public class Hash_map {
     	      System.out.println("key: " + i + " value: " + capitalCities.get(i));
     	    }
 
+       //Using EntrySet
+       for(Map.Entry<String,String> m : capitalCities.entrySet() ) {
+    	   System.out.println(m.getKey() +  " - "  + m.getValue());
+       }
+
+       //You cannot store duplicate keys in HashMap. However, if you try to store duplicate key with another value, it will replace the value.
+       capitalCities.put("USA", "WashingtonDC");
+       System.out.println(capitalCities); //{USA=WashingtonDC, Norway=Oslo, England=London, Germany=Berlin}
        
+       //Replace
+       capitalCities.replace("Germany","BeRLI");
+       System.out.println(capitalCities);
+       
+
        
 	}
 

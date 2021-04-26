@@ -105,8 +105,8 @@ public class Array_List {
         {  
             String str=list1.previous();  
             System.out.print(str);  
-        }  
-
+        }          
+        
 	}
 
 }
