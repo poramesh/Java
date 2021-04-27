@@ -43,7 +43,7 @@ public class Linked_List {
 
 
         //Traversing the list of elements in reverse order  
-        Iterator i = list.descendingIterator();  
+        Iterator<String> i = list.descendingIterator();  
         while(i.hasNext())  
         {  
             System.out.print(i.next());  //harsh,ajay,vijay,tavi,lokesh
