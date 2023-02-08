@@ -11,13 +11,14 @@ public class Array_List {
 	
 	public static void main(String args[]) {
 		
-		//collection is used to store and manipulate group of objects. and it aloows us to perform
+		//collection is used to store and manipulate group of objects. and it allows us to perform
 		//searching, sorting, insertion, manipulation, and deletion.
 		
-		//ArrayList implements list interface where it inhibits list type ds in which data aer stored in ordered collection of objects
-		//and it can have dupicate values. The ArrayList class is a resizable array
+		//ArrayList implements list interface where it inhibits list type data structure in which data are stored in
+		//ordered collection of objects
+		//and it can have duplicate values. The ArrayList class is a re-sizable array
 		
-		//ArrayList class maintains the insertion order and is non-synchronized. 
+		//ArrayList class maintains the insertion order and is non-synchronised. 
 		//The elements stored in the ArrayList class can be randomly accessed
 		
 		List<Integer> num = new ArrayList<Integer>();
@@ -27,7 +28,7 @@ public class Array_List {
 		num.add(4);
 		num.add(1);
 		
-		//Intializing using arrays.asList 
+		//Initialising using arrays.asList 
 		ArrayList<String> list = new ArrayList<String>(Arrays.asList("A","B","C","D","E"));
 		
 		System.out.println(list);

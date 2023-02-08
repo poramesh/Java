@@ -4,7 +4,7 @@ public class BasicString {
 	
 	public static void main(String args[]) {
 		
-		char ch[] = {'a','b','c','d','e','f'};	
+		char ch[] = {'A','R','N','A','A','V'};	
 		
 		String str = new String(ch);
 		
